@@ -1,3 +1,3 @@
 import models from '../src/models'
 
-console.log('=======>', models);
+console.log('SUCCESS');

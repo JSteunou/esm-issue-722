@@ -12,6 +12,7 @@
     "mocha": "^5.2.0"
   },
   "scripts": {
-    "test": "mocha -r esm foo/test/index.js --exit"
+    "test": "mocha -r esm foo/test/index.js --exit",
+    "start": "node -r esm foo/test/index.js"
   }
 }
