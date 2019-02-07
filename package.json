@@ -1,0 +1,17 @@
+{
+  "name": "esm-issue-722",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.3"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha -r esm foo/test/index.js --exit"
+  }
+}
